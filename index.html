@@ -13,6 +13,7 @@
     <div class="central">
         <h3>Conversor de temperatura</h3>
         <label for="medida">De: </label>
+        <input type="number" id="medida">
         <select name="seletor" id="inicial">
             <option value="celsius">celsius</option>
             <option value="fahrenheit">fahrenheit</option>
@@ -24,9 +25,10 @@
             <option value="fahrenheit">fahrenheit</option>
             <option value="kelvin">kelvin</option>
         </select>
-        <input type="text" name="" id="temperatura">
         <button onclick="converterTemperatura()">Converter</button>
         <p id="resultado"></p>
+
+        <script src="script.js"></script>
 </body>
 
 </html>
